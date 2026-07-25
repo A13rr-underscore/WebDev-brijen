@@ -1,0 +1,110 @@
+.calendar-page{
+
+    margin-left:270px;
+    margin-top:100px;
+    padding:30px;
+
+}
+
+
+.calendar-page h1{
+
+    margin-bottom:30px;
+
+    font-size:32px;
+
+}
+
+
+
+.react-calendar{
+
+    width:900px;
+
+    max-width:100%;
+
+    background:#26466B;
+
+    color:white;
+
+    border:none;
+
+    border-radius:15px;
+
+    padding:20px;
+
+}
+
+
+
+/* Month navigation */
+
+.react-calendar button{
+
+    color:white;
+
+    background:none;
+
+}
+
+
+
+.react-calendar__navigation button{
+
+    font-size:20px;
+
+}
+
+
+
+/* Date boxes */
+
+.react-calendar__tile{
+
+    height:100px;
+
+    padding:10px;
+
+    border-radius:10px;
+
+}
+
+
+
+.react-calendar__tile:hover{
+
+    background:#355f91;
+
+}
+
+
+
+/* Goal inside date */
+
+.goal-events{
+
+    margin-top:5px;
+
+}
+
+
+
+.event{
+
+    background:#4CAF50;
+
+    color:white;
+
+    padding:4px;
+
+    margin-top:4px;
+
+    border-radius:5px;
+
+    font-size:12px;
+
+    overflow:hidden;
+
+    white-space:nowrap;
+
+}
